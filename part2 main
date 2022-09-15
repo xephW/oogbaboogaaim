@@ -1,5 +1,6 @@
 local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/xephW/oogbaboogaaim/main/part1"))()
 Aiming.TeamCheck(false)
+Aiming.ShowFov = false
 
 local Workspace = game:GetService("Workspace")
 local Players = game:GetService("Players")
